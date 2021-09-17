@@ -1,0 +1,37 @@
+# story exposition
+
+# setting up different values, functions and constants that will be used inside of the story
+
+# while loop
+    # ask whether you want to attempt to climb the rubble, scan the room for something useful, or wait for help
+        # if cry for help:
+            # two men come around to "help" you
+            # if you decide to trust them:
+                # you die of being shot
+            # elif you decide to distrust them:
+                # you take damage from the bullets they fired and rubbles but don't die, the room half collapses
+                # asks if you want to heal, rest and pretend to be dead, or try to climb out of the hole on the ceiling
+                # if you want to heal:
+                    # if you have a fist aid:
+                        # your hp returns to normal
+                    # else:
+                        # nothing happens and you just wasted your time
+                # elif you rest and pretend to be dead:
+                    # if your hp and stamina is healthy:
+                        # the men eventually leaves
+                        # if you have a sledgehammer:
+                            # good ending
+                        # else:
+                            # you die of the rubbles collapsing when climbing out
+                    # else:
+                        # you die of bleeding and/or exhuastion
+                # elif you try to clumb out of the hole on the ceiling:
+                    # the two men shot you down
+                # else:
+                    # bad input
+        # elif climb the rubble:
+            # you die of the rubble collapsing
+        # elif scan the room for something useful:
+            # add sledgehammer and first aid to your inventory
+        # else:
+            # say invalid input and try again 
